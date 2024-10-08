@@ -1,5 +1,10 @@
 # Project Setup Instructions
 
+## Prerequisites
+Before setting up the project, ensure you have the following installed on your system:
+- python (version 3.x)
+- pip
+
 ## Create a Virtual Environment
 Create a virtual environment to isolate the project dependencies. Run the following command in the root folder of the project:
 
