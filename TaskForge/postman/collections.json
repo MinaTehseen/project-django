@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "66db8638-8d14-4110-91fb-485d62d1b91b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9818359"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRFToken",
+						"value": "pPk1N5OUfbKE91dt1NrIXZSAgcAg1l3laO7mlKfXaWUWpVBxBxBB1FW3oeBcG2lx",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "mina",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "l9qw6s2';WZ1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/projects/2/delete/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRFToken",
+						"value": "pPk1N5OUfbKE91dt1NrIXZSAgcAg1l3laO7mlKfXaWUWpVBxBxBB1FW3oeBcG2lx",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "mina",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "l9qw6s2';WZ1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/projects/2/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"projects",
+						"2",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/token/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRFToken",
+						"value": "pPk1N5OUfbKE91dt1NrIXZSAgcAg1l3laO7mlKfXaWUWpVBxBxBB1FW3oeBcG2lx",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "mina",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "l9qw6s2';WZ1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/projects/3/delete/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NDE0MjkxLCJpYXQiOjE3Mjg0MTA2OTEsImp0aSI6IjRiYjYyMzY0OGRlZDQzM2NiOGJmMDIyNzg1NWQ3NDU3IiwidXNlcl9pZCI6NH0.hq8ZUzwLEZqU9AqX-ybvgOHfAeQoZ4PTrEhsDAXFpbc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "mina",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "l9qw6s2';WZ1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/projects/3/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"projects",
+						"3",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
