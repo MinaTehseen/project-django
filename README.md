@@ -51,3 +51,14 @@ Start the Django development server by running:
 python manage.py runserver
 ```
 The server will be available at: http://127.0.0.1:8000/
+
+## After Adding New Models
+If you create a new model or make changes to existing models, you will need to run makemigrations and migrate to apply those changes to the database.
+
+```
+python manage.py makemigrations
+```
+
+```
+python manage.py migrate
+```
