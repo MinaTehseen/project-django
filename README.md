@@ -1,9 +1,13 @@
-# Project Setup Instructions
+# Django Project Management System
+
+This is a Django-based Project Management System that provides user authentication using JWT and allows CRUD operations on projects and tasks.
+
+## Project Setup Instructions
 
 ## Prerequisites
 Before setting up the project, ensure you have the following installed on your system:
-- python (version 3.x)
-- pip
+- Python 3.8+
+- pip (Python package installer)
 
 ## Create a Virtual Environment
 Create a virtual environment to isolate the project dependencies. Run the following command in the root folder of the project:
@@ -35,7 +39,7 @@ venv\Scripts\activate
 
 ##  Install Dependencies
 
- Run the following command to install the required dependencies:
+After activating the virtual environment, install the required dependencies using pip:
  ```
  pip install -r requirements.txt
 ```
